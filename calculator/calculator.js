@@ -1,6 +1,6 @@
 const buttons = document.querySelectorAll("button");
 const display = document.querySelector(".display");
-const input = 0;
+let input = 0;
 
 buttons.forEach(
   (btn) =>
